@@ -2,7 +2,7 @@
 
 ## Laravel Dusk
 
-If you need the laravel dusk API translated to nightwatch: [Laravel Dusk](dusk)
+If you need the laravel dusk API translated to nightwatch: [Laravel Dusk](dusk.md)
 
 ## General
 
