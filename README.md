@@ -6,6 +6,13 @@ If you need the laravel dusk API translated to nightwatch: [Laravel Dusk](dusk.m
 
 ## General
 
+http://nightwatchjs.org/api
+
+- [Expect](http://nightwatchjs.org/api#expect-api)
+- [Assert](http://nightwatchjs.org/api#assertions)
+- [Commands](http://nightwatchjs.org/api#commands)
+- [Webdriver Protocol](http://nightwatchjs.org/api#protocol)
+
 ```
 this.nightwatchTest = function (browser) {
   //Expect
