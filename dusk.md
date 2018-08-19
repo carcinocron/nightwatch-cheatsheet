@@ -39,4 +39,22 @@ $browser->waitForLocation('/dashboard');
 ```js
 // I could not find a known equivalent,
 // best to waitForElementVisible on the next page's dusk identifier
+browser.waitForElementPresent('[dusk="dashboard"]', 5)
+browser.assert.urlContains('/dashboard')
 ```
+
+## `waitForText` 
+
+```php
+$browser->waitForText('Hello World');
+```
+
+```js
+// also note that "contains" means "exact match",
+// where the laravel example is a "contains" match.
+// a more precise example needs to be found.
+// Also, one that does not require specifying a parent element
+// but thats not a big deal ATM
+browser
+    .expect.element('p')
+    .text.to.contain('Hello World').before(5)
